@@ -1,0 +1,10 @@
+#!/bin/fish
+set here (pwd)
+ln -s $here/config.fish ~/.config/fish/config.fish
+ln -s $here/i3 ~/.config/i3/config
+ln -s $here/x/init ~/.xinitrc
+ln -s $here/x/resources ~/.Xresources
+ln -s $here/vim ~/.vimrc
+ln -s $here/polybar ~/.config/polybar/config
+ln -s $here/git ~/.gitconfig
+ln -s $here/code.json ~/.config/Code/User/settings.json

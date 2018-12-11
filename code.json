@@ -1,0 +1,68 @@
+{
+    "window.menuBarVisibility": "toggle",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.statusBar.feedback.visible": false,
+    "workbench.activityBar.visible": false,
+    "workbench.colorCustomizations": {
+        "statusBar.background" : "#1A1A1A",
+        "statusBar.noFolderBackground" : "#212121",
+        "statusBar.debuggingBackground": "#263238"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "editor.minimap.enabled": true,
+    "editor.minimap.renderCharacters": false,
+    "editor.fontSize": 14,
+    "editor.fontFamily": "Fira Mono",
+    "extensions.ignoreRecommendations": true,
+
+    "[rust]": {
+        "editor.formatOnSave": true,
+    },
+
+    "css.lint.unknownProperties": "ignore",
+    "files.associations": {
+        "*.css": "scss"
+    },
+
+    "latex-workshop.view": {
+  		"pdf.viewer": "tab",
+		"autoActivateLatex.enabled": false,
+    }
+    "[latex]": {
+        "editor.wordWrap": "on",
+        "editor.minimap.enabled": false,
+    },
+    "latex-workshop.latex.tools": [
+        {
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "-pdf",
+                "%DOC%"
+            ]
+        },
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ]
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
+                "%DOCFILE%"
+            ]
+        }
+    ],
+
+    "python.linting.pylintEnabled": false,
+}

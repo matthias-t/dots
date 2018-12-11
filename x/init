@@ -1,0 +1,13 @@
+setxkbmap -layout de -option "compose:caps"
+xmodmap -e 'keycode 47 = 0x2f'
+
+thunar --daemon &
+redshift -r &
+xrdb ~/.Xresources
+xsetroot -solid "#0d0000"
+xss-lock -- i3lock -nuc 000000 &
+dunst &
+xst &
+syncthing -no-browser &
+
+exec i3
