@@ -8,3 +8,4 @@ ln -s $here/vim ~/.vimrc
 ln -s $here/polybar ~/.config/polybar/config
 ln -s $here/git ~/.gitconfig
 ln -s $here/code.json ~/.config/Code/User/settings.json
+ln -s $here/lock ~/bin/lock

@@ -102,5 +102,3 @@ client.urgent           $color1 $color1 $color1 $color1
 client.background       $color0
 
 exec polybar bar
-exec --no-startup-id xautolock -time 5 -locker 'i3lock -nuc 000000'
-
