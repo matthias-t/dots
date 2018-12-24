@@ -1,5 +1,6 @@
 {
-    "window.menuBarVisibility": "toggle",
+    "window.menuBarVisibility": "hidden",
+    "window.titleBarStyle": "native",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.statusBar.feedback.visible": false,
     "workbench.activityBar.visible": false,
@@ -21,47 +22,24 @@
     },
 
     "css.lint.unknownProperties": "ignore",
-    "files.associations": {
-        "*.css": "scss"
-    },
+    "files.associations": { "*.css": "scss" },
 
-    "latex-workshop.view": {
-  		"pdf.viewer": "tab",
-		"autoActivateLatex.enabled": false,
-    }
+    "latex-workshop.view.autoActivateLatex.enabled": false,
+    "latex-workshop.view.pdf.viewer": "tab",
     "[latex]": {
         "editor.wordWrap": "on",
         "editor.minimap.enabled": false,
     },
-    "latex-workshop.latex.tools": [
-        {
+    "latex-workshop.latex.tools": [ {
             "name": "latexmk",
             "command": "latexmk",
             "args": [
-                "-synctex=1",
                 "-interaction=nonstopmode",
                 "-file-line-error",
                 "-pdf",
                 "%DOC%"
             ]
         },
-        {
-            "name": "pdflatex",
-            "command": "pdflatex",
-            "args": [
-                "-synctex=1",
-                "-interaction=nonstopmode",
-                "-file-line-error",
-                "%DOC%"
-            ]
-        },
-        {
-            "name": "bibtex",
-            "command": "bibtex",
-            "args": [
-                "%DOCFILE%"
-            ]
-        }
     ],
 
     "python.linting.pylintEnabled": false,
