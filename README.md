@@ -1,5 +1,4 @@
 Dotfiles for:
-- yay
 - fish
 - xorg and i3
 - git
