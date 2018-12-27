@@ -1,0 +1,13 @@
+[DEFAULT]
+username_extractor=specific_line
+line_username=1
+skip_username=6
+
+[github.com*]
+target=code/git/hub
+
+[gitlab.com*]
+target=code/git/lab
+
+[git.sr.ht*]
+target=code/git/srht

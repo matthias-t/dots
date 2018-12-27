@@ -2,6 +2,7 @@ Dotfiles for:
 - fish
 - xorg and i3
 - git
+- pass-git-helper
 - polybar
 - vim (`$EDITOR` is set to micro though, but that works well without any dotfile)
 - visual studio code

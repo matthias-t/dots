@@ -4,8 +4,9 @@ ln -s $here/fish ~/.config/fish/config.fish
 ln -s $here/i3 ~/.config/i3/config
 ln -s $here/x/init ~/.xinitrc
 ln -s $here/x/resources ~/.Xresources
-ln -s $here/vim ~/.vimrc
 ln -s $here/polybar ~/.config/polybar/config
 ln -s $here/git ~/.gitconfig
+ln -s $here/git-pass ~/.config/pass-git-helper/git-pass-mapping.ini
+ln -s $here/vim ~/.vimrc
 ln -s $here/code ~/.config/Code/User/settings.json
 ln -s $here/lock ~/bin/lock

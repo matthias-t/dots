@@ -7,7 +7,7 @@
 	show = diff-so-fancy | less --tabs=1,5 -RFX
 
 [credential]
-	helper = store
+	helper = /usr/bin/pass-git-helper
 
 [diff]
 	algorithm = patience
