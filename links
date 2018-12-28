@@ -5,6 +5,7 @@ ln -s $here/i3 ~/.config/i3/config
 ln -s $here/x/init ~/.xinitrc
 ln -s $here/x/resources ~/.Xresources
 ln -s $here/polybar ~/.config/polybar/config
+ln -s $here/mpv ~/.config/mpv/mpv.conf
 ln -s $here/git ~/.gitconfig
 ln -s $here/git-pass ~/.config/pass-git-helper/git-pass-mapping.ini
 ln -s $here/vim ~/.vimrc
