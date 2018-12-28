@@ -1,13 +1,17 @@
-Dotfiles for:
+Configuration for:
 
-- fish
-- xorg and i3
-- git
-- pass-git-helper
-- polybar
-- mpv
-- vim (`$EDITOR` is set to micro though, but that works well without any dotfile)
-- visual studio code
+- **shell**: fish
+- **wm**: xorg, i3, polybar, rofi, *i3lock*, *xss-lock*, *xautolock*, *redshift*
+- **terminal**: *xst*
+- **vcs**: git, pass-git-helper, *diff-so-fancy*
+- **editor**: *micro*, vim, vscode
+- **media**: mpv
+- **passwords**: *pass*
+- **notifications**: dunst
+- **misc**: *thunar*, *syncthing*
+
+Applications in *italic* are not configured but started, used or
+required by the provided configuration.
 
 `links` is a fish-shell script that creates the necessary symlinks.
 It needs to be called from the repository root, like so: `./links`.
