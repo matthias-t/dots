@@ -5,6 +5,7 @@ Dotfiles for:
 - git
 - pass-git-helper
 - polybar
+- mpv
 - vim (`$EDITOR` is set to micro though, but that works well without any dotfile)
 - visual studio code
 
