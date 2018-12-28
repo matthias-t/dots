@@ -10,4 +10,5 @@ ln -s $here/git ~/.gitconfig
 ln -s $here/git-pass ~/.config/pass-git-helper/git-pass-mapping.ini
 ln -s $here/vim ~/.vimrc
 ln -s $here/code ~/.config/Code/User/settings.json
+ln -s $here/dunst ~/.config/dunst/dunstrc
 ln -s $here/lock ~/bin/lock

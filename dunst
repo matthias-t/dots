@@ -1,0 +1,41 @@
+[global]
+    follow = keyboard
+    geometry = "300x5-30+40"
+    padding = 8
+    horizontal_padding = 8
+    frame_width = 2
+    frame_color = "#407ee7"
+    separator_color = frame
+    sort = yes
+    idle_threshold = 120
+
+    font = "Fira Mono" 8
+    markup = full
+    format = "<b>%s</b> %p  <small>%a</small>\n%b"
+    word_wrap = yes
+
+    icon_position = off
+    sticky_history = yes
+    history_length = 20
+    title = dunst
+    class = dunst
+
+[shortcuts]
+    close = mod4+comma
+    close_all = mod4+shift+comma
+    history = mod4+period
+
+[urgency_low]
+    background = "#000000"
+    foreground = "#bbbbbb"
+    timeout = 15
+
+[urgency_normal]
+    background = "#000000"
+    foreground = "#ffffff"
+    timeout = 15
+
+[urgency_critical]
+	background = "#ffffff"
+	foreground = "#000000"
+    timeout = 0
