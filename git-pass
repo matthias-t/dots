@@ -8,6 +8,3 @@ target=code/git/hub
 
 [gitlab.com*]
 target=code/git/lab
-
-[git.sr.ht*]
-target=code/git/srht
