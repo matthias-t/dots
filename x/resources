@@ -25,3 +25,6 @@
 ! white
 *.color7:       #ffffff
 *.color15:      #ffffff
+
+rofi.font: Fira Mono 14
+rofi.theme: Monokai
