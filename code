@@ -44,4 +44,9 @@
     ],
 
     "python.linting.pylintEnabled": false,
+
+    "[plaintext]": {
+        "editor.wordWrap": "on",
+        "editor.minimap.enabled": false,
+    },
 }
