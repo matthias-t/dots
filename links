@@ -1,14 +1,13 @@
 #!/bin/fish
-set here (pwd)
-ln -s $here/fish ~/.config/fish/config.fish
-ln -s $here/i3 ~/.config/i3/config
-ln -s $here/x/init ~/.xinitrc
-ln -s $here/x/resources ~/.Xresources
-ln -s $here/polybar ~/.config/polybar/config
-ln -s $here/mpv ~/.config/mpv/mpv.conf
-ln -s $here/git ~/.gitconfig
-ln -s $here/git-pass ~/.config/pass-git-helper/git-pass-mapping.ini
-ln -s $here/vim ~/.vimrc
-ln -s $here/code ~/.config/Code/User/settings.json
-ln -s $here/dunst ~/.config/dunst/dunstrc
-ln -s $here/lock ~/bin/lock
+ln -s $PWD/fish ~/.config/fish/config.fish
+ln -s $PWD/i3 ~/.config/i3/config
+ln -s $PWD/x/init ~/.xinitrc
+ln -s $PWD/x/resources ~/.Xresources
+ln -s $PWD/polybar ~/.config/polybar/config
+ln -s $PWD/mpv ~/.config/mpv/mpv.conf
+ln -s $PWD/git ~/.gitconfig
+ln -s $PWD/git-pass ~/.config/pass-git-helper/git-pass-mapping.ini
+ln -s $PWD/vim ~/.vimrc
+ln -s $PWD/code ~/.config/Code/User/settings.json
+ln -s $PWD/dunst ~/.config/dunst/dunstrc
+ln -s $PWD/lock ~/bin/lock
