@@ -5,6 +5,7 @@ set -x PATH $PATH /home/matthias/bin /home/matthias/.cargo/bin /home/matthias/co
 set -x MAIL /home/matthias/documents/mail
 
 set -x GOPATH /home/matthias/code/go
+set -x PASSWORD_STORE_DIR /home/matthias/.secret/pass/
 set -x PASSWORD_STORE_CHARACTER_SET '[:graph:]'
 set -gx QT_QPA_PLATFORMTHEME qt5ct
 
