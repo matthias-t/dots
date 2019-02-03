@@ -13,7 +13,7 @@ Configuration for:
 Applications in *italic* are not configured but started, used or
 required by the provided configuration.
 
-`links` is a fish-shell script that creates the necessary symlinks.
+`links` is a shell script that creates the necessary symlinks.
 It needs to be called from the repository root, like so: `./links`.
 
 `lock` is a shell script that starts i3lock with some flags.
