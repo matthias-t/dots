@@ -1,7 +1,7 @@
 Configuration for:
 
 - **shell**: fish
-- **wm**: xorg, i3, polybar, rofi, *i3lock*, *xss-lock*, *xautolock*, *redshift*
+- **wm**: xorg, i3, polybar, rofi, *rofi-pass*, *i3lock*, *xss-lock*, *xautolock*, *redshift*
 - **terminal**: *xst*
 - **vcs**: git, pass-git-helper, *diff-so-fancy*
 - **editor**: *micro*, vim, vscode

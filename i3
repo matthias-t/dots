@@ -8,6 +8,7 @@ floating_modifier Mod4
 
 bindsym Mod4+Return exec xst
 bindsym Mod4+d exec fish -c "rofi -show combi"
+bindsym Mod4+p exec fish -c "rofi-pass"
 bindsym Mod4+Shift+Return exec firefox-developer-edition
 bindsym Mod4+q kill
 
